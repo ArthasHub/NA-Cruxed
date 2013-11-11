@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Demo</title>
+</head>
+<script type="text/javascript">
+	function fn1(arg){
+		var ret = function(num){
+			return arg+num;
+		}
+		return ret;
+	}
+	var f = fn1(20);
+	alert(f(40));
+</script>
+<body>
+	
+</body>
+</html>
